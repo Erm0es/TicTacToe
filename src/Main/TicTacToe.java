@@ -1,3 +1,4 @@
+package src.Main;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
@@ -49,7 +50,6 @@ public class TicTacToe implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
         for (int i = 0; i < 9; i++) {
             if (e.getSource() == buttons[i]) {
                 if (player1Turn) {
